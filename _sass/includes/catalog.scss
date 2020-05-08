@@ -1,0 +1,22 @@
+.panel-body{
+    width: 95%;
+    .cata_header{
+        background-color: #f8f9fa!important;
+        height: 80px;
+
+        form{
+            position: relative;
+            top: 26%;
+        }
+    }
+    .toolbar{
+        float: right;
+        margin-bottom: 10px;
+        button{
+            margin-right: 5px;
+        }
+    }
+    label{
+        margin-right: -3%;
+    }
+}

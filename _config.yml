@@ -1,0 +1,44 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+
+title: cmxStars
+subtitle: A demo for jekyll
+email: 1174625760@qq.com
+
+  
+baseurl: "" 
+url: "" 
+twitter_username: jekyllrb
+github_username:  cmxStars
+
+# Side Menu Links
+menu:
+  - text: Login page
+    link: /login
+    icon: ""
+
+  - text: Home page
+    link: /index
+    icon: ""
+    
+  - text: Catalog page
+    link: /catalog
+    icon: ""
+
+  - text: Traction page
+    link: /index
+    icon: ""
+
+
+
+
+theme: minima
+plugins:
+  - jekyll-feed
+

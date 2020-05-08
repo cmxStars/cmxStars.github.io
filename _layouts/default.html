@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+	<link rel="stylesheet" href="{{ '/assets/libs/bootstrap-4.4.1/css/bootstrap.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
+
+</head>
+
+
+
+<body>
+
+	  <section class="pan-layout">
+		 {% include header.html %}
+		 
+		  {% include left.html %}
+		  
+		  <section class="pan-layout-overlay"></section>
+	  
+	    <section class="pan-layout-right">
+	  
+		  <section class="pan-layout-content">
+			{{ content }}
+		  </section>
+	   </section>	  
+	        {% include footer.html %}
+	  </section>
+	 
+</body>
+
+
+</html>

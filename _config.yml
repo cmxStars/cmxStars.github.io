@@ -31,8 +31,8 @@ menu:
     link: /catalog
     icon: ""
 
-  - text: Traction page
-    link: /index
+  - text: Transaction page
+    link: /transaction
     icon: ""
 
 

@@ -2,14 +2,23 @@
     width: 95%;
     .cata_header{
         background-color: #f8f9fa!important;
-        height: 80px;
-
+        height: 175px;
+        margin-bottom:10px;
+        border-radius:10px;
         form{
             position: relative;
             top: 26%;
         }
     }
-    .toolbar{
+    .cata_table{
+        table th{
+            background-color: var(--theme-color) !important;
+        }
+        input{
+            margin: 0 auto;
+        }
+    }
+    .cata_btn{
         float: right;
         margin-bottom: 10px;
         button{
@@ -17,6 +26,7 @@
         }
     }
     label{
-        margin-right: -3%;
+        margin-right: -5%;
+        margin-left: 1%;
     }
 }

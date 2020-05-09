@@ -1,21 +1,23 @@
+.btn-outline-primary,.btn-primary,.form-control{
+    border-color: var(--theme-color) !important;
+    &:focus{
+        box-shadow : 0 0 0 0.1rem var(--theme-color) !important;
+    }
+}
 .btn-outline-primary{
     color: var(--theme-color) !important;
-    border-color:var(--theme-color) !important;
     &:hover{
-        color: #fff;
+        color: #fff !important;
         background-color: var(--theme-color) !important;
     }
     &.active {
         background-color: var(--theme-color) !important;
     }
-    &:focus{
-        box-shadow : 0 0 0 0.2rem var(--theme-color) !important;
-    }
 }
 .btn-primary{
     background-color: var(--theme-color) !important;
-    border-color:var(--theme-color) !important;
     &:hover{
         background-color: var(--theme-color) !important;
     }
 }
+

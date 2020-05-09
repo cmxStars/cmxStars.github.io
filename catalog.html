@@ -43,7 +43,7 @@ layout: home
         <table class="table table-bordered table-hover ">
             <thead>
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">Select</th>
                 <th scope="col">First</th>
                 <th scope="col">Last</th>
                 <th scope="col">Handle</th>
@@ -51,7 +51,7 @@ layout: home
             </thead>
             <tbody>
             <tr>
-                <td scope="row"><input type="checkbox" class="form-check-input" id="exampleCheck1"></td>
+                <td scope="row"><input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..."></td>
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>@mdo</td>
@@ -84,4 +84,44 @@ layout: home
             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>Delete
         </button>
     </div> 
+
+    <!-- page -->
+    <div class="cata_page">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">...</a></li>
+              <li class="page-item"><a class="page-link" href="#">10</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link cata_total" >共1000条</a></li>
+              <li class="page-item">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        5/page
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">10/page</a>
+                      <a class="dropdown-item" href="#">20/page</a>
+                      <a class="dropdown-item" href="#">50/page</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">100/page</a>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+        </nav>
+    </div>
+  
 </div>

@@ -13,7 +13,7 @@
     .cata_table{
         table th{
             color: #fff;
-            background-color: var(--theme-color) !important;
+            background-color: $themeColor !important;
         }
         tr td:nth-child(1) {
             text-align: center;

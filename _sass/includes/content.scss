@@ -2,8 +2,8 @@
   position: absolute;
   left: 0px;
   right: 0px;
-  top: var(--pan-layout-header-height);
-  bottom: var(--pan-layout-footer-height);
+  top: $--pan-layout-header-height;
+  bottom: $--pan-layout-footer-height;
   background-color: #FFF;
   padding: 20px;
   overflow: auto;

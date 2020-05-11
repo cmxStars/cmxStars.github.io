@@ -3,7 +3,7 @@
   top: 0px;
   left: 0px;
   right: 0px;
-  height: var(--pan-layout-header-height);
+  height: $--pan-layout-header-height;
   background-color: #FFF;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, .5);
   z-index: 10;
@@ -19,7 +19,7 @@
   }
 
   &__menutoggle {
-    display: var(--pan-menutoggle-display);
+    display: $--pan-menutoggle-display;
     cursor: pointer;
     left: 0px;
     width: 50px;

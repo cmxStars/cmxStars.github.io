@@ -2,10 +2,9 @@
 .pan-layout-left {
   display: block;
   position: absolute;
-  top: var(--pan-layout-header-height);
-  bottom: var(--pan-layout-footer-height);
-  left: var(--pan-layout-left-left);
-  // width: var(--pan-layout-left-width);
+  top: $--pan-layout-header-height;
+  bottom: $--pan-layout-footer-height;
+  left: 0;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,7 +20,7 @@
     left: 0px;
     right: 0px;
     content: "";
-    background-color: var(--pan-layout-left-background-color);
+    background-color: $themeColor;
   }
 
   > * {
@@ -36,20 +35,18 @@
 
   &__top {
     top: 0px;
-    height: var(--pan-layout-left-top-height);
+    height: $--pan-layout-left-top-height;
   }
 
   &__middle {
-    top: var(--pan-layout-left-top-height);
-    // bottom: var(--pan-layout-left-bottom-height);
-    border-top: var(--pan-layout-left-middle-border);
-    // border-bottom: var(--pan-layout-left-middle-border);
+    top: $--pan-layout-left-top-height;
+    border-top: $--pan-layout-left-middle-border;
     overflow-y: auto;
     overflow-x: visible;
   }
 
   &__bottom {
-    height: var(--pan-layout-left-bottom-height);
+    height: $--pan-layout-left-bottom-height;
     bottom: 0px;
 
     > * {
@@ -176,7 +173,7 @@
     color: #FFF;
     cursor: pointer;
     z-index: 10;
-    display: var(--pan-layout-left-close-btn-display);
+    display: $--pan-layout-left-close-btn-display;
   }
 
 }

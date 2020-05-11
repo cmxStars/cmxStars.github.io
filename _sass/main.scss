@@ -26,7 +26,7 @@ body {
 
 a {
   &, &:link, &:visited {
-    color: var(--theme-color);
+    color: $themeColor;
     text-decoration: none;
   }
   
@@ -61,7 +61,7 @@ h6 { font-size: .6rem; }
   }
   
   &-overlay {
-    display: var(--pan-overlay-display);
+    display: $--pan-overlay-display;
     cursor: pointer;
     position: absolute;
     top: 0px;
@@ -73,9 +73,8 @@ h6 { font-size: .6rem; }
   }
   
   &.pan-menu-open {
-    --pan-layout-left-left: 0px;
-    --pan-layout-right-left: var(--pan-layout-left-width);
-    --pan-layout-right-right: calc(var(--pan-layout-left-width) * -1);
-    --pan-overlay-display: block;
+    $--pan-layout-right-left: $--pan-layout-left-width;
+    $--pan-layout-right-right: calc($--pan-layout-left-width * -1);
+    $--pan-overlay-display: block;
   }
 }
